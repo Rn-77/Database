@@ -2,7 +2,6 @@
 
 namespace Database.Models
 {
-
     using System;
 
     public class Mensajes
@@ -12,6 +11,5 @@ namespace Database.Models
         public string CuerpoMensaje { get; set; }
         public Usuarios Emisor { get; set; }
         public Salas IdSala { get; set; }
-
 	}
 }

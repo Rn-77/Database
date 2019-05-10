@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 
-    public class Profesores : Usuarios
+    public class Docentes : Usuarios
 	{
 		public List<Cursos> Cursos { get; set; }
 	}

@@ -2,8 +2,11 @@
 {
     public class Alumnos : Usuarios 
     {
-        public Alumnos()
-        {
-        }
+            public string Situacion { get; set; }
+
+        public Alumnos(){
+            
+
+    }
     }
 }

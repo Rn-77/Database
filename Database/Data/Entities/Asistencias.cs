@@ -11,6 +11,5 @@
 		public DateTime Fecha { get; set; }
 		public Cursos Curso { get; set; }
 		public Alumnos Alumno { get; set; }
-
 	}
 }

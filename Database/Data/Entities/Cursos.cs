@@ -7,7 +7,7 @@
     {
         public int Id { get; set; }
         public Materias Materia { get; set; }
-        public Profesores Profesor { get; set; }
+        public Docentes Docentes { get; set; }
 
 
     }
