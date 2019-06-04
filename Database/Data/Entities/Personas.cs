@@ -2,7 +2,10 @@
 {
 
 using System;
-	using System.ComponentModel.DataAnnotations;
+    using System.Collections;
+    using System.Collections.Generic;
+    using System.Collections.ObjectModel;
+    using System.ComponentModel.DataAnnotations;
 
 	public class Personas
 	{
@@ -15,7 +18,7 @@ using System;
 		public int TipoDocumento { get; set; }
 		public string Documento { get; set; }
         public int Genero { get; set; }
-		public string Domicilio { get; set; }
+		public List<Domicilios> Domicilios { get; set; }
 		public string TelefonoFijo { get; set; }
 		public DateTime FechaNacimiento { get; set; }
         public string LugarNacimiento { get; set; }

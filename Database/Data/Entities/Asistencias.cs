@@ -11,6 +11,7 @@
 		public DateTime Fecha { get; set; }
 		public Aula Aula { get; set; }
 		public Alumnos Alumno { get; set; }
+		public double Asistencia { get; set; }
 
 	}
 }
